@@ -1,6 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/nav_graph">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
 
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.foodcalmj.ui.LoginFragment"
+        android:label="LoginFragment" />
+    <fragment
+        android:id="@+id/loginPWResetFragment"
+        android:name="com.example.foodcalmj.ui.LoginPWResetFragment"
+        android:label="LoginPWResetFragment" />
+    <fragment
+        android:id="@+id/loginRegisterFragment"
+        android:name="com.example.foodcalmj.ui.LoginRegisterFragment"
+        android:label="LoginRegisterFragment" />
+    <fragment
+        android:id="@+id/communityForumFragment"
+        android:name="com.example.foodcalmj.ui.CommunityForumFragment"
+        android:label="fragment_community_forum"
+        tools:layout="@layout/fragment_community_forum" />
+    <fragment
+        android:id="@+id/cookingAllFragment"
+        android:name="com.example.foodcalmj.ui.CookingAllFragment"
+        android:label="fragment_cooking_all"
+        tools:layout="@layout/fragment_cooking_all" />
+    <fragment
+        android:id="@+id/cookingVeganFragment"
+        android:name="com.example.foodcalmj.ui.CookingVeganFragment"
+        android:label="fragment_cooking_vegan"
+        tools:layout="@layout/fragment_cooking_vegan" />
+    <fragment
+        android:id="@+id/favoritenFragment"
+        android:name="com.example.foodcalmj.ui.FavoritenFragment"
+        android:label="fragment_favoriten"
+        tools:layout="@layout/fragment_favoriten" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.foodcalmj.ui.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/rawFoodFragment"
+        android:name="com.example.foodcalmj.ui.RawFoodFragment"
+        android:label="fragment_raw_food"
+        tools:layout="@layout/fragment_raw_food" />
+    <fragment
+        android:id="@+id/cookingVegetarianFragment"
+        android:name="com.example.foodcalmj.ui.CookingVegetarianFragment"
+        android:label="fragment_cooking_vegetarian"
+        tools:layout="@layout/fragment_cooking_vegetarian" />
 </navigation>
