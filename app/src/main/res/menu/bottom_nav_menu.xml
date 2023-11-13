@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/shopFragment"
+        android:title="shop"
+        android:icon="@drawable/"
+        />
+    <item
+        android:id="@+id/plantLexiconFragment"
+        android:title="lexicon"
+        android:icon="@drawable/"
+        />
+</menu>
